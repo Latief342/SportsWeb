@@ -1,72 +1,161 @@
-##🏆 SportsWeb - Top Athletes Management System
+# 🏆 SportsWeb - Top Athletes Management System
 
 SportsWeb merupakan aplikasi berbasis web yang dirancang untuk menampilkan informasi mengenai atlet-atlet olahraga dengan pendapatan tertinggi di dunia. Aplikasi ini menyediakan katalog atlet lengkap beserta detail profil, penghasilan, dan deskripsi, serta dilengkapi dengan sistem autentikasi pengguna dan dashboard admin untuk mengelola data atlet secara mudah dan efisien.
 
-Dengan tampilan antarmuka modern menggunakan Bootstrap 5, efek Glassmorphism, serta desain yang responsif, SportsWeb memberikan pengalaman pengguna yang menarik baik melalui perangkat desktop maupun mobile.
+Dengan tampilan antarmuka modern menggunakan **Bootstrap 5**, efek **Glassmorphism**, serta desain yang responsif, SportsWeb memberikan pengalaman pengguna yang menarik baik melalui perangkat desktop maupun mobile.
 
-🌟 Fitur Unggulan
-1. 🏆 Tampilan Modern & Responsif
-Desain modern menggunakan Bootstrap 5
-Efek Glassmorphism pada halaman Login & Register
-Banner olahraga fullscreen pada halaman autentikasi
-Responsive Design untuk Desktop, Tablet, dan Smartphone
-Efek Hover Animation pada Card Atlet
-Navigasi sederhana dan mudah digunakan
-2. 🔐 Sistem Autentikasi Pengguna
+---
 
-SportsWeb telah dilengkapi dengan sistem autentikasi bawaan Laravel yang telah dimodifikasi agar lebih modern.
+## 🌟 Fitur Unggulan
 
-Fitur yang tersedia:
+### 🏆 Tampilan Modern & Responsif
 
-Login User
-Register User
-Logout
-Validasi Form
-Password Hashing
-Session Authentication
+- ✅ Desain modern menggunakan **Bootstrap 5**
+- ✅ Glassmorphism Login & Register
+- ✅ Banner olahraga fullscreen
+- ✅ Responsive Design
+- ✅ Hover Animation pada Card Atlet
+- ✅ Navigasi yang sederhana dan mudah digunakan
 
-Setelah proses registrasi berhasil, pengguna akan diarahkan kembali ke halaman Login untuk melakukan autentikasi sebelum mengakses aplikasi.
+### 🔐 Sistem Autentikasi
 
-3. 🏅 Katalog Atlet
+- Login
+- Register
+- Logout
+- Validasi Form
+- Password Hashing
+- Session Authentication
 
-Pengguna dapat melihat daftar atlet yang telah tersedia dalam bentuk card yang menarik.
+### 🏅 Katalog Atlet
 
-Setiap data atlet menampilkan:
+Pengguna dapat melihat daftar atlet dengan informasi:
 
-Foto Atlet
-Nama Atlet
-Cabang Olahraga
-Total Pendapatan
-Tombol Detail
-4. 🔍 Fitur Pencarian Atlet
+- Foto Atlet
+- Nama Atlet
+- Cabang Olahraga
+- Total Pendapatan
+- Tombol Detail
 
-Pengguna dapat melakukan pencarian berdasarkan:
+### 🔍 Fitur Pencarian
 
-Nama Atlet
-Cabang Olahraga
+- Pencarian berdasarkan Nama Atlet
+- Pencarian berdasarkan Cabang Olahraga
 
-Pencarian dilakukan secara cepat menggunakan fitur Query Builder Laravel.
+### 📄 Detail Atlet
 
-5. 📄 Detail Informasi Atlet
+Menampilkan informasi lengkap seperti:
 
-Setiap atlet memiliki halaman detail yang berisi informasi lengkap seperti:
+- Foto Atlet
+- Nama Atlet
+- Cabang Olahraga
+- Total Pendapatan
+- Biografi
+- Prestasi
 
-Foto Atlet
-Nama Lengkap
-Cabang Olahraga
-Pendapatan
-Biografi Singkat
-Deskripsi Prestasi
-6. ⚙️ Dashboard Admin
+### ⚙️ Dashboard Admin
 
-Administrator dapat mengelola seluruh data atlet melalui Dashboard Admin.
+Administrator dapat:
 
-Fitur yang tersedia:
+- ➕ Menambah Atlet
+- ✏️ Mengubah Atlet
+- ❌ Menghapus Atlet
+- 📷 Upload Foto Atlet
 
-Menambah Data Atlet
-Mengubah Data Atlet
-Menghapus Data Atlet
-Upload Foto Atlet
-Validasi Data
+---
 
-Seluruh proses CRUD dibuat menggunakan Laravel Resource Controller sehingga lebih terstruktur dan mudah dikembangkan.
+## 💻 Teknologi yang Digunakan
+
+- **Laravel 13**
+- **PHP 8.4**
+- **Bootstrap 5**
+- **Blade Template Engine**
+- **MySQL**
+- **Vite**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
+- **Git**
+- **GitHub**
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Latief342/SportsWeb.git
+```
+
+### Masuk ke Folder
+
+```bash
+cd SportsWeb
+```
+
+### Install Dependency
+
+```bash
+composer install
+npm install
+```
+
+### Konfigurasi Environment
+
+```bash
+cp .env.example .env
+```
+
+### Generate Key
+
+```bash
+php artisan key:generate
+```
+
+### Migrasi Database
+
+```bash
+php artisan migrate --seed
+```
+
+### Jalankan Vite
+
+```bash
+npm run dev
+```
+
+### Jalankan Laravel
+
+```bash
+php artisan serve
+```
+
+Kemudian buka browser:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 📸 Tampilan Aplikasi
+
+- 🏠 Home
+- 🔐 Login
+- 📝 Register
+- 🏆 Detail Atlet
+- ⚙️ Dashboard Admin
+- ➕ Tambah Atlet
+- ✏️ Edit Atlet
+
+---
+
+## 👨‍💻 Developer
+
+**Abdul Latief**
+
+Informatika — Universitas Sebelas Maret
+
+---
+
+⭐ Jika repository ini bermanfaat, jangan lupa berikan **Star** pada repository ini.
