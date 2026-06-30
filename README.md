@@ -149,13 +149,3 @@ http://127.0.0.1:8000
 - ✏️ Edit Atlet
 
 ---
-
-## 👨‍💻 Developer
-
-**Abdul Latief**
-
-Informatika — Universitas Sebelas Maret
-
----
-
-⭐ Jika repository ini bermanfaat, jangan lupa berikan **Star** pada repository ini.
